@@ -1,0 +1,149 @@
+/* FILEPATH: /c:/나르샤/프론트/ReEd_Frontend/src/announcement/Announcement.css */
+
+/* Set background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Center content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Set announcement box styles */
+.announcement-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Set announcement title styles */
+.announcement-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Set announcement date styles */
+.announcement-date {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Set announcement content styles */
+.announcement-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set announcement styles 추가할것(의논하기)*/
+.announcement{
+    padding: 0 40px;
+    height: 70px;
+    overflow: hidden;
+}
+
+/* Set announcement content styles */
+.announcement-content {
+    height: 30px;
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+/* Set announcement container styles */
+.announcement-container {
+    transition: transform 1s;
+}
+
+/* 
+import React from 'react'
+import React, { useState, useEffect, useRef } form 'react'
+
+const Notice = () => {
+  const notice = [
+    {
+      no: 1,
+      title: '뭐시깽이 도마뱀 입고',
+      content: '뭐시깽이 도마뱀 입고',
+      date: '2021-12-13 14:20:31'
+    },
+    {
+      no: 2,
+      title: 'SM GECKO 설 연휴 휴무 안내',
+      content: 'SM GECKO 설 연휴 휴무 안내',
+      date: '2021-12-13 14:20:31'
+    },
+    {
+      no: 3,
+      title: '뭐시깽이 도마뱀 입고',
+      content: '뭐시깽이 도마뱀 입고',
+      date: '2021-12-13 14:20:31'
+    },
+    {
+      no: 4,
+      title: '12월 SM GECKO 소식',
+      content: '12월 SM GECKO 소식',
+      date: '2021-12-13 14:20:31'
+    },
+    {
+      no: 5,
+      title: 'SM GECKO 운영 시간 알림',
+      content: 'SM GECKO 운영 시간 알림',
+      date: '2021-12-13 14:20:31'
+    },
+
+  ]
+  return (
+    <ul className="notice">
+      <div style={{ transform: "translateY(-0px)" }}>
+        {notice.map((item, idx) => {
+          return (
+            <li className="notice_content" key={idx}>
+              <div>
+                <span className="notice_header">공지</span>
+                <div className="notice_title">{item['title']}</div>
+              </div>
+            </li>
+          )
+        })}
+      </div>
+    </ul>
+  )
+}
+
+export default Notice
+
+cosnt [idx, setIdx] = useState(0)
+const idxRef = useRef(0)
+
+useEffect(() => {
+    setInterval(() => {
+        idxRef.current = (idxRef.current + 1) % notice.length
+        setIdx(idxRef.current)
+        console.log(idxRef)
+    }, 2000)
+}, [notice.length])
+
+div className="notice_container" style={{ transForm: ` translatteY(-${70 * idx}px)` }}
+...
+<div> */
+
